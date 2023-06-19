@@ -1,0 +1,20 @@
+﻿@using Example_DI.Models;
+@model IEnumerable<User>
+<h2>Usuários</h2>
+<table border="1" style="width:100%">
+    <tr>
+        <th>Nome</th>
+        <th>Sobrenome</th>
+        <th>Data de nascimento</th>
+        <th>Usuário</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(model => item.Name)</td>
+            <td>@Html.DisplayFor(model => item.LastName)</td>
+            <td>@Html.DisplayFor(model => item.BirthDate)</td>
+            <td>@Html.DisplayFor(model => item.UserName)</td>
+        </tr>
+    }
+</table>
