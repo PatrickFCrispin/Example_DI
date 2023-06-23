@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Patri\\OneDrive\\Área de Trabalho\\Example_DI\\Example_DI\\Example_DI\\Example_DI.csproj": {}
+    "C:\\Users\\Patri\\OneDrive\\Área de Trabalho\\Example_DI\\Example_DI\\Example_DI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Patri\\OneDrive\\Área de Trabalho\\Example_DI\\Example_DI\\Example_DI\\Example_DI.csproj": {
+    "C:\\Users\\Patri\\OneDrive\\Área de Trabalho\\Example_DI\\Example_DI\\Example_DI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Patri\\OneDrive\\Área de Trabalho\\Example_DI\\Example_DI\\Example_DI\\Example_DI.csproj",
+        "projectUniqueName": "C:\\Users\\Patri\\OneDrive\\Área de Trabalho\\Example_DI\\Example_DI\\Example_DI.csproj",
         "projectName": "Example_DI",
-        "projectPath": "C:\\Users\\Patri\\OneDrive\\Área de Trabalho\\Example_DI\\Example_DI\\Example_DI\\Example_DI.csproj",
+        "projectPath": "C:\\Users\\Patri\\OneDrive\\Área de Trabalho\\Example_DI\\Example_DI\\Example_DI.csproj",
         "packagesPath": "C:\\Users\\Patri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Patri\\OneDrive\\Área de Trabalho\\Example_DI\\Example_DI\\Example_DI\\obj\\",
+        "outputPath": "C:\\Users\\Patri\\OneDrive\\Área de Trabalho\\Example_DI\\Example_DI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

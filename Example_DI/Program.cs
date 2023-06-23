@@ -10,10 +10,13 @@ builder.Services.AddControllersWithViews();
 if (builder.Configuration.GetSection("UseFakeProvider").Value == true.ToString())
 {
     builder.Services.AddScoped<IProvider, FakeProvider>();
+    builder.Services.AddTransient<IUserRepository, FakeUserRepository>();
 }
-else { builder.Services.AddScoped<IProvider, ClientProvider>(); }
-
-builder.Services.AddTransient<IUserRepository, UserRepository>();
+else
+{
+    builder.Services.AddScoped<IProvider, ClientProvider>();
+    builder.Services.AddTransient<IUserRepository, UserRepository>();
+}
 
 var app = builder.Build();
 

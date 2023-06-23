@@ -2,27 +2,27 @@
 
 namespace Example_DI.Repositories
 {
-    public class UserRepository : IUserRepository
+    public class FakeUserRepository : IUserRepository
     {
         private readonly IEnumerable<User> _users;
 
-        public UserRepository()
+        public FakeUserRepository()
         {
             _users = new List<User>
             {
                 new User
                 {
-                    Name = "Client",
+                    Name = "Fake",
                     LastName = "1",
                     BirthDate = new DateTime(1995, 09, 23),
-                    UserName = "client1",
+                    UserName = "fake1",
                 },
                 new User
                 {
-                    Name = "Client",
+                    Name = "Fake",
                     LastName = "2",
                     BirthDate = new DateTime(1991, 12, 26),
-                    UserName = "client2",
+                    UserName = "fake2",
                 }
             };
         }
