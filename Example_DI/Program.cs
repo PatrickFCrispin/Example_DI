@@ -15,7 +15,7 @@ if (builder.Configuration.GetSection("UseFakeProvider").Value == true.ToString()
 else
 {
     builder.Services.AddScoped<IProvider, ClientProvider>();
-    builder.Services.AddTransient<IUserRepository, UserRepository>();
+    builder.Services.AddTransient<IUserRepository, ClientUserRepository>();
 }
 
 var app = builder.Build();

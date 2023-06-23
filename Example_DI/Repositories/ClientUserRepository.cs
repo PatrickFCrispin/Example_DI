@@ -2,11 +2,11 @@
 
 namespace Example_DI.Repositories
 {
-    public class UserRepository : IUserRepository
+    public class ClientUserRepository : IUserRepository
     {
         private readonly IEnumerable<User> _users;
 
-        public UserRepository()
+        public ClientUserRepository()
         {
             _users = new List<User>
             {
