@@ -1,3 +1,3 @@
 # Example_DI
-Este repositório conta com um exemplo de injeção de dependência (DI) e programação orientada à abstração (interface) desde o statup até a request. 
+Este repositório conta com um exemplo de injeção de dependência (DI) e Inversão de Controle (IoC) e Princípio de Inversão de Dependência (DIP). 
 #### "Programe para uma interface e não para uma implementação."

@@ -2,6 +2,7 @@
 
 namespace Example_DI.Repositories
 {
+    // Here we create and return mock data
     public class FakeUserRepository : IUserRepository
     {
         private readonly IEnumerable<User> _users;

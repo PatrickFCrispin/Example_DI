@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hXfbtAV8Z7kRLgvkL2MOTaapLeb3cSTZt5YYPrxkNtyTluZw5gVdnpjESUidp5UzWs29EPpLI20ZU3/h0RIfgA==",
+  "dgSpecHash": "jxcCedyT6NDzuW4pxc1uPYe1HQ7chgTNIm6Zy13Kz2YLypSd9poBTth19i2h2h/0rw5ZAu1fZthklcntwq/cHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Patri\\OneDrive\\Área de Trabalho\\Example_DI\\Example_DI\\Example_DI.csproj",
+  "projectFilePath": "C:\\Example_DI\\Example_DI\\Example_DI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
